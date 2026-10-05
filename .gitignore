@@ -1,0 +1,35 @@
+# Secrets and local environment files
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Python
+.venv/
+venv/
+**/venv/
+__pycache__/
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Node / Vite
+node_modules/
+**/node_modules/
+dist/
+**/dist/
+build/
+coverage/
+
+# Local/editor artifacts
+.qodo/
+.vscode/
+.idea/
+*.log
+*.py[cod]
+Thumbs.db
+.DS_Store

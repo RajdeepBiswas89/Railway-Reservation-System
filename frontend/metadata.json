@@ -1,0 +1,6 @@
+{
+  "name": "RAILNEX - Railway Reservation & Management",
+  "description": "Premium railway reservation, live seat selection, digital ticketing, and transportation management platform.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
