@@ -1,4 +1,6 @@
-const API_BASE_URL = (import.meta as any).env?.VITE_API_BASE_URL || 'http://localhost:8000/api';
+const viteEnv = (import.meta as any).env;
+const API_BASE_URL = viteEnv?.VITE_API_BASE_URL ||
+  (viteEnv?.PROD ? '/api' : 'http://localhost:8000/api');
 
 export const TOKEN_STORAGE_KEY = 'railnex_token';
 
