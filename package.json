@@ -1,0 +1,12 @@
+{
+  "name": "railnex",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "npm --prefix frontend ci --include=dev && npm --prefix frontend run build"
+  },
+  "dependencies": {
+    "@netlify/database": "^2.0.1",
+    "@netlify/functions": "^6.0.2"
+  }
+}
